@@ -6,7 +6,8 @@ import "aos/dist/aos.css";
 
 //Components
 import Navbar from "./components/Navbar/Navbar.jsx";
-
+import Home from "./components/Home/Home.jsx";
+import Drinks from "./components/Services/Drinks.jsx";
 const App = () => {
   useEffect(() => {
     AOS.init({
@@ -19,10 +20,8 @@ const App = () => {
   return (
     <div className="overflow-x-hidden">
       <Navbar />
-      {/* <Home/>
-      <About/>
-      <Menu/>
-      <Contact/> */}
+      <Home />
+      <Drinks />
     </div>
   );
 };
