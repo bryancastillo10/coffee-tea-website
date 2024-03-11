@@ -8,6 +8,9 @@ import "aos/dist/aos.css";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Home from "./components/Home/Home.jsx";
 import Drinks from "./components/Services/Drinks.jsx";
+import Banner from "./components/Banner/Banner.jsx";
+import MobileAds from "./components/MobileAds/MobileAds.jsx";
+
 const App = () => {
   useEffect(() => {
     AOS.init({
@@ -22,6 +25,8 @@ const App = () => {
       <Navbar />
       <Home />
       <Drinks />
+      <Banner />
+      <MobileAds />
     </div>
   );
 };

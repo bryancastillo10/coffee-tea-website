@@ -11,7 +11,7 @@ const Drinks = () => {
         {/* Header title */}
         <div className="text-center mb-20">
           <h1 className="text-4xl font-bold font-cursiveTwo text-gray-700">
-            Coffee and Tea Menu
+            Coffee and Tea Bestsellers
           </h1>
         </div>
         {/* Drinks Card Section */}
@@ -31,7 +31,7 @@ const Drinks = () => {
                       src={drink.img}
                       alt=""
                       className="max-w-[200px] block mx-auto 
-                      transform -translate-y-14 group-hover:scale-110 group-hover:rotate-6 duration-300"
+                      transform -translate-y-12 group-hover:scale-110 group-hover:rotate-6 duration-300"
                     />
                   </div>
                   {/* Menu Text Content */}
