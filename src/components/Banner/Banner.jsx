@@ -43,29 +43,30 @@ const Banner = () => {
                 rich espresso and delicate teas. Every sip transports you to a
                 world of exquisite flavor and tranquility.
               </p>
-              <div className="grid grid-cols-2 gap-6">
-                <div className="space-y-5">
-                  <div className="grid grid-cols-2 gap-3">
+              <div className="flex grid-cols-2 gap-8 mr-2">
+                <div className="space-y-5 pr-5">
+                  <div className="grid grid-cols-2 gap-6">
                     <ImLeaf className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-green-100" />
                     <span>Refreshing Aroma!</span>
                   </div>
-                  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-2 gap-6">
                     <FaMugHot className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100" />
                     <span>Blazing Brews</span>
                   </div>
-                  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-2 gap-6">
                     <MdSevereCold className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-blue-100" />
                     <span>Icy Infusions</span>
                   </div>
                 </div>
-                <div className=" border-l-4 border-primary/50 pl-6 space-y-3">
+                <div className="mb-4 border-l-4 border-primary/50 pl-6 space-y-3">
                   <h1 className="text-2xl font-semibold font-cursive">
                     To Tea Lovers,
                   </h1>
-                  <p className="text-sm text-gray-700 text-right">
+                  <p className="text-sm text-gray-700 ">
                     Sip on our handcrafted teas, brewed with passion and
-                    dedication. Taste the difference in every cup, crafted just
-                    for you.
+                    dedication. Immerse yourself in the essence of ancient Asian
+                    tea craftsmanship with every sip. Taste the difference in
+                    every cup, crafted just for you.
                   </p>
                 </div>
               </div>
