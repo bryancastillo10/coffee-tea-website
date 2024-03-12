@@ -38,12 +38,12 @@ const Banner = () => {
               <h1 className="text-3xl sm:text-4xl font-bold font-cursive">
                 Premium Delights
               </h1>
-              <p className="text-sm text-gray-700 tracking-wide leading-5">
+              <p className="text-md text-center text-gray-700 tracking-wide leading-5">
                 Espresso&Tea Co. invites you to savor the perfect harmony of
                 rich espresso and delicate teas. Every sip transports you to a
                 world of exquisite flavor and tranquility.
               </p>
-              <div className="flex grid-cols-2 gap-8 mr-2">
+              <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-5 pr-5">
                   <div className="grid grid-cols-2 gap-6">
                     <ImLeaf className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-green-100" />
@@ -62,7 +62,7 @@ const Banner = () => {
                   <h1 className="text-2xl font-semibold font-cursive">
                     To Tea Lovers,
                   </h1>
-                  <p className="text-sm text-gray-700 ">
+                  <p className="text-sm text-gray-700 text-right">
                     Sip on our handcrafted teas, brewed with passion and
                     dedication. Immerse yourself in the essence of ancient Asian
                     tea craftsmanship with every sip. Taste the difference in

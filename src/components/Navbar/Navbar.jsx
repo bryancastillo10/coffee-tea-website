@@ -2,27 +2,12 @@
 import React from "react";
 import Logo from "../../assets/webpage/company_logo.png";
 import { FaCoffee } from "react-icons/fa";
-const Menus = [
-  {
-    id: 1,
-    name: "Home",
-    link: "/#",
-  },
-  {
-    id: 2,
-    name: "Drinks",
-    link: "/#",
-  },
-  {
-    id: 3,
-    name: "About",
-    link: "/#",
-  },
-];
+
+import NavTitles from "./NavTitles.js";
 
 const Navbar = () => {
   return (
-    <div className="bg-gradient-to-r from-secondary to-secondary/90 shadow-md text-white">
+    <nav className="w-full fixed z-50 top-0 bg-gradient-to-r from-secondary to-secondary/90 shadow-md text-white">
       <div className="container py-2">
         <div className="flex justify-between items-center gap-4">
           {/* Logo section */}
@@ -38,7 +23,7 @@ const Navbar = () => {
           {/* Links section */}
           <div className="flex justify-between items-center gap-4">
             <ul className="hidden sm:flex items-center gap-4">
-              {Menus.map((menu, index) => (
+              {NavTitles.map((menu, index) => (
                 <li key={index}>
                   <a
                     href={menu.link}
@@ -56,7 +41,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

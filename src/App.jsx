@@ -10,6 +10,7 @@ import Home from "./components/Home/Home.jsx";
 import Drinks from "./components/Services/Drinks.jsx";
 import Banner from "./components/Banner/Banner.jsx";
 import MobileAds from "./components/MobileAds/MobileAds.jsx";
+import Ratings from "./components/Ratings/Ratings.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
       <Drinks />
       <Banner />
       <MobileAds />
+      <Ratings />
     </div>
   );
 };
