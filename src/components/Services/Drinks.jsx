@@ -6,7 +6,7 @@ import DrinkList from "./DrinkList.js";
 
 const Drinks = () => {
   return (
-    <div className="py-10">
+    <div className="py-10 bg-primary/40">
       <div className="container">
         {/* Header title */}
         <div className="text-center mb-20">

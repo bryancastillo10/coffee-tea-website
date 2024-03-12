@@ -11,7 +11,7 @@ const Ratings = () => {
         {/* Header section */}
         <div className="text-center mb-3">
           <h1 className="text-4xl font-bold font-cursive text-gray-800">
-            Premium Grade Coffee and Tea
+            Customer Feedbacks
           </h1>
         </div>
         {/* Commentary section */}
