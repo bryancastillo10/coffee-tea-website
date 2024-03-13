@@ -17,3 +17,8 @@
 .spin {
   animation: spin 10s linear infinite;
 }
+
+/* Smooth Scrolling*/
+html {
+  scroll-behavior: smooth;
+}

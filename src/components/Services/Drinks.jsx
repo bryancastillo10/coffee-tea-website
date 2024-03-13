@@ -9,7 +9,7 @@ const Drinks = () => {
     <div className="py-10 bg-primary/40">
       <div className="container">
         {/* Header title */}
-        <div className="text-center mb-20">
+        <div data-aos="fade-up" className="text-center mb-20">
           <h1 className="text-4xl font-bold font-cursiveTwo text-gray-700">
             Coffee and Tea Bestsellers
           </h1>

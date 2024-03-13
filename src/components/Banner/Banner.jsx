@@ -22,11 +22,12 @@ const backgroundBanner = {
 const Banner = () => {
   return (
     <>
+      <span id="about"></span>
       <div style={backgroundBanner}>
         <div className="container min-h-[550px] flex justify-center items-center py-12 sm:py-0">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {/* Image Section */}
-            <div>
+            <div data-aos="zoom-in" className="sm: flex items-center">
               <img
                 src={TeaTop}
                 alt=""
@@ -35,34 +36,52 @@ const Banner = () => {
             </div>
             {/* Text Content Section */}
             <div className="flex flex-col justify-center gap-6 sm:pt-0">
-              <h1 className="text-3xl sm:text-4xl font-bold font-cursive">
+              <h1
+                data-aos="fade-up"
+                className="text-3xl sm:text-4xl font-bold font-cursive"
+              >
                 Premium Delights
               </h1>
-              <p className="text-md text-center text-gray-700 tracking-wide leading-5">
+              <p
+                data-aos="fade-up"
+                className="text-md text-center text-gray-700 tracking-wide leading-5"
+              >
                 Espresso&Tea Co. invites you to savor the perfect harmony of
                 rich espresso and delicate teas. Every sip transports you to a
                 world of exquisite flavor and tranquility.
               </p>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="space-y-5 pr-5">
-                  <div className="grid grid-cols-2 gap-6">
+              <div className="flex md:grid grid-cols-2 gap-2">
+                <div className="space-y-5">
+                  <div data-aos="fade-up" className="flex items-center gap-3">
                     <ImLeaf className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-green-100" />
                     <span>Refreshing Aroma!</span>
                   </div>
-                  <div className="grid grid-cols-2 gap-6">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                    className="flex items-center gap-3"
+                  >
                     <FaMugHot className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100" />
                     <span>Blazing Brews</span>
                   </div>
-                  <div className="grid grid-cols-2 gap-6">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-delay="500"
+                    data-aos-offset="0"
+                    className="flex items-center gap-3"
+                  >
                     <MdSevereCold className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-blue-100" />
                     <span>Icy Infusions</span>
                   </div>
                 </div>
-                <div className="mb-4 border-l-4 border-primary/50 pl-6 space-y-3">
+                <div
+                  data-aos="slide-left"
+                  className="border-l-4 border-primary/50 pl-6 space-y-2"
+                >
                   <h1 className="text-2xl font-semibold font-cursive">
                     To Tea Lovers,
                   </h1>
-                  <p className="text-sm text-gray-700 text-right">
+                  <p className="text-sm text-gray-700 text-right sm:text-center sm:py-4">
                     Sip on our handcrafted teas, brewed with passion and
                     dedication. Immerse yourself in the essence of ancient Asian
                     tea craftsmanship with every sip. Taste the difference in

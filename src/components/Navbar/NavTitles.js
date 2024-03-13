@@ -2,17 +2,17 @@ const NavTitles = [
   {
     id: 1,
     name: "Home",
-    link: "/#",
+    link: "/#home",
   },
   {
     id: 2,
     name: "Drinks",
-    link: "/#",
+    link: "/#drink",
   },
   {
     id: 3,
     name: "About",
-    link: "/#",
+    link: "/#about",
   },
 ];
 
