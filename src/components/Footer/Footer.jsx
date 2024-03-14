@@ -2,7 +2,7 @@
 import React from "react";
 import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 
-import FootList from "./FootList.js";
+import { FootList, FootListTwo } from "./FootList.js";
 import FooterImg from "../../assets/webpage/coffee-footer.jpg";
 
 const backgroundFooter = {
@@ -35,7 +35,7 @@ const Footer = () => {
               href="#"
               className="inline-block bg-[#3D2517] py-2 px-4 mt-5 text-sm rounded-full"
             >
-              Our YouTube Channel
+              Web Design by Bryan
             </a>
           </div>
           {/* Footer Links */}
@@ -43,7 +43,7 @@ const Footer = () => {
             {/* First Column Links */}
             <div className="py-8 px-4">
               <h1 className="text-xl font-semibold sm:text-left mb-3">
-                Footer Links
+                Quick Links
               </h1>
               <ul className="space-y-3">
                 {FootList.map((list, index) => (
@@ -61,10 +61,10 @@ const Footer = () => {
             {/* Second Column Links */}
             <div className="py-8 px-4">
               <h1 className="text-xl font-semibold sm:text-left mb-3">
-                Quick Links
+                More Info
               </h1>
               <ul className="space-y-3">
-                {FootList.map((list, index) => (
+                {FootListTwo.map((list, index) => (
                   <li key={index}>
                     <a
                       href={list.link}

@@ -1,4 +1,4 @@
-const FootList = [
+export const FootList = [
   {
     title: "Home",
     link: "/#",
@@ -17,4 +17,21 @@ const FootList = [
   },
 ];
 
-export default FootList;
+export const FootListTwo = [
+  {
+    title: "Success Stories",
+    link: "/#",
+  },
+  {
+    title: "Guest Feedbacks",
+    link: "/#",
+  },
+  {
+    title: "Delivery Service",
+    link: "/#",
+  },
+  {
+    title: "Privacy Policy",
+    link: "/#",
+  },
+];
