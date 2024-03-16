@@ -35,7 +35,7 @@ const Footer = () => {
               href="#"
               className="inline-block bg-[#3D2517] py-2 px-4 mt-5 text-sm rounded-full"
             >
-              Our YouTube Channel
+              Web Design by Bryan
             </a>
           </div>
           {/* Footer Links */}
