@@ -2,24 +2,8 @@
 import React from "react";
 import Logo from "../assets/images/company_logo.png";
 import { FaCoffee } from "react-icons/fa";
+import NavTitles from "../lists/navData.js";
 
-const NavTitles = [
-  {
-    id: 1,
-    name: "Home",
-    link: "/#home",
-  },
-  {
-    id: 2,
-    name: "Drinks",
-    link: "/#drink",
-  },
-  {
-    id: 3,
-    name: "About",
-    link: "/#about",
-  },
-];
 const Navbar = () => {
   return (
     <nav className="w-full fixed z-50 top-0 bg-gradient-to-r from-secondary to-secondary/90 shadow-md text-white">

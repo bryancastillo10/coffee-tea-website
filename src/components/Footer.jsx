@@ -3,24 +3,7 @@ import React from "react";
 import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 import FooterImg from "../assets/bg/coffee-footer.jpg";
 
-const FootList = [
-  {
-    title: "Home",
-    link: "/#",
-  },
-  {
-    title: "About",
-    link: "/#",
-  },
-  {
-    title: "Contact",
-    link: "/#",
-  },
-  {
-    title: "Blogs",
-    link: "/#",
-  },
-];
+import FootList from "../lists/footerData.js";
 
 const backgroundFooter = {
   backgroundImage: `url(${FooterImg})`,
