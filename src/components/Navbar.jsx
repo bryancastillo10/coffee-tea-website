@@ -1,9 +1,25 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import Logo from "../../assets/images/company_logo.png";
+import Logo from "../assets/images/company_logo.png";
 import { FaCoffee } from "react-icons/fa";
 
-import NavTitles from "./NavTitles.js";
+const NavTitles = [
+  {
+    id: 1,
+    name: "Home",
+    link: "/#home",
+  },
+  {
+    id: 2,
+    name: "Drinks",
+    link: "/#drink",
+  },
+  {
+    id: 3,
+    name: "About",
+    link: "/#about",
+  },
+];
 
 const Navbar = () => {
   return (

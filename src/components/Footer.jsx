@@ -1,9 +1,26 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
+import FooterImg from "../assets/bg/coffee-footer.jpg";
 
-import FootList from "./FootList.js";
-import FooterImg from "../../assets/bg/coffee-footer.jpg";
+const FootList = [
+  {
+    title: "Home",
+    link: "/#",
+  },
+  {
+    title: "About",
+    link: "/#",
+  },
+  {
+    title: "Contact",
+    link: "/#",
+  },
+  {
+    title: "Blogs",
+    link: "/#",
+  },
+];
 
 const backgroundFooter = {
   backgroundImage: `url(${FooterImg})`,

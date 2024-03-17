@@ -2,7 +2,7 @@
 import React from "react";
 import Slider from "react-slick";
 
-import { RatingList, RateSetting } from "./RatingList.js";
+import { RatingList, RateSetting } from "../../lists/RatingList.js";
 
 const Ratings = () => {
   return (

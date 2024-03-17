@@ -5,13 +5,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 //Components
-import Navbar from "./components/Navbar/Navbar.jsx";
-import Hero from "./components/Hero/Hero.jsx";
-import Drinks from "./components/Services/Drinks.jsx";
-import Banner from "./components/Banner/Banner.jsx";
-import MobileAds from "./components/MobileAds/MobileAds.jsx";
-import Ratings from "./components/Ratings/Ratings.jsx";
-import Footer from "./components/Footer/Footer.jsx";
+import { Navbar, MobileAds, Footer } from "./components";
+import { Hero, Drinks, Banner, Ratings } from "./pages/landing-page";
 
 const App = () => {
   useEffect(() => {
