@@ -20,7 +20,6 @@ const NavTitles = [
     link: "/#about",
   },
 ];
-
 const Navbar = () => {
   return (
     <nav className="w-full fixed z-50 top-0 bg-gradient-to-r from-secondary to-secondary/90 shadow-md text-white">
