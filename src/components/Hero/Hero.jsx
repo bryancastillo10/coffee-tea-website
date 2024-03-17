@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import HeroImg from "../../assets/rounded_coffee.png";
+import HeroImg from "../../assets/images/rounded_coffee.png";
 
 const Hero = () => {
   return (

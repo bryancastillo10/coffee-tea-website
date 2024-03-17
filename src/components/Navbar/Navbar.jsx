@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import Logo from "../../assets/webpage/company_logo.png";
+import Logo from "../../assets/images/company_logo.png";
 import { FaCoffee } from "react-icons/fa";
 
 import NavTitles from "./NavTitles.js";

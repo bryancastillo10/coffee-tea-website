@@ -1,5 +1,5 @@
-import Img1 from "../../assets/coffee.png";
-import Img2 from "../../assets/tea.png";
+import Img1 from "../../assets/images/coffee.png";
+import Img2 from "../../assets/images/tea.png";
 
 const DrinkData = [
   {

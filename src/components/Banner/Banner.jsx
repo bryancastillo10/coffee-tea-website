@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 //images
-import TeaTop from "../../assets/webpage/tea-top.png";
-import BannerImg from "../../assets/webpage/texture.png";
+import TeaTop from "../../assets/images/tea-top.png";
+import BannerImg from "../../assets/bg/texture.png";
 
 //icons
 import { ImLeaf } from "react-icons/im";
