@@ -1,12 +1,10 @@
-/* eslint-disable no-unused-vars */
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 //Package
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 //Components
-import { Navbar, MobileAds, Footer } from "src/components";
-import { Hero, Drinks, Banner, Ratings } from "src/pages/landing-page";
+import LandingPage from "src/pages/LandingPage.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -18,14 +16,8 @@ const App = () => {
     });
   });
   return (
-    <div className="overflow-x-hidden">
-      <Navbar />
-      <Hero />
-      <Drinks />
-      <Banner />
-      <MobileAds />
-      <Ratings />
-      <Footer />
+    <div>
+      <LandingPage />
     </div>
   );
 };

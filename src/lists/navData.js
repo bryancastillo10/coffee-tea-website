@@ -2,7 +2,7 @@ const NavTitles = [
   {
     id: 1,
     name: "Home",
-    link: "/#home",
+    link: "/",
   },
   {
     id: 2,
@@ -12,7 +12,7 @@ const NavTitles = [
   {
     id: 3,
     name: "Contacts",
-    link: "/contact",
+    link: "/contacts",
   },
 ];
 

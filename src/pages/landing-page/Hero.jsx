@@ -4,7 +4,7 @@ import HeroImg from "../../assets/images/rounded_coffee.png";
 
 const Hero = () => {
   return (
-    <div className="min-h-[550px] sm:min-h-[600px] bg-brandDark flex justify-center items-center text-white">
+    <div className="min-h-[550px] sm:min-h-[600px] bg-brandDark flex justify-center items-center text-white isolation:isolate">
       <div className="container pb-8 sm:pb-0 mt-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {/* Text Content Section */}
