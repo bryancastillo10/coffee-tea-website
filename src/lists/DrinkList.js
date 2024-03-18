@@ -1,7 +1,7 @@
-import Img1 from "../../assets/images/coffee.png";
-import Img2 from "../../assets/images/tea.png";
+import Img1 from "src/assets/images/coffee.png";
+import Img2 from "src/assets/images/tea.png";
 
-export const DrinkList = [
+const DrinkList = [
   {
     id: 1,
     img: Img1,
@@ -52,3 +52,5 @@ export const DrinkList = [
     aosDelay: "100",
   },
 ];
+
+export default DrinkList;

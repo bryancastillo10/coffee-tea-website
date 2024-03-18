@@ -5,8 +5,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 //Components
-import { Navbar, MobileAds, Footer } from "./components";
-import { Hero, Drinks, Banner, Ratings } from "./pages/landing-page";
+import { Navbar, MobileAds, Footer } from "src/components";
+import { Hero, Drinks, Banner, Ratings } from "src/pages/landing-page";
 
 const App = () => {
   useEffect(() => {
