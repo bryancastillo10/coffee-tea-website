@@ -1,7 +1,7 @@
-import male from "../../assets/placeholder/male.png";
-import male2 from "../../assets/placeholder/male2.png";
-import female from "../../assets/placeholder/female.png";
-import female2 from "../../assets/placeholder/female2.png";
+import male from "../assets/placeholder/male.png";
+import male2 from "../assets/placeholder/male2.png";
+import female from "../assets/placeholder/female.png";
+import female2 from "../assets/placeholder/female2.png";
 
 export const RatingList = [
   {

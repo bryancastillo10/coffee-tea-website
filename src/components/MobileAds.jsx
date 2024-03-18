@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 //images
-import AppleStore from "../../assets/webpage/app_store.png";
-import GooglePlay from "../../assets/webpage/play_store.png";
-import BannerTwo from "../../assets/webpage/coffee-tea-bg.png";
+import AppleStore from "../assets/images/app_store.png";
+import GooglePlay from "../assets/images/play_store.png";
+import BannerTwo from "../assets/bg/coffee-tea-bg.png";
 
 const backgroundBanner = {
   backgroundImage: `url(${BannerTwo})`,

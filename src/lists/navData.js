@@ -6,13 +6,13 @@ const NavTitles = [
   },
   {
     id: 2,
-    name: "Drinks",
-    link: "/#drink",
+    name: "About",
+    link: "/about",
   },
   {
     id: 3,
-    name: "About",
-    link: "/#about",
+    name: "Contacts",
+    link: "/contact",
   },
 ];
 

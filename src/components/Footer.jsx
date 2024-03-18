@@ -2,7 +2,6 @@
 import React from "react";
 import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 
-import { FootList, FootListTwo } from "./FootList.js";
 import FooterImg from "../../assets/webpage/coffee-footer.jpg";
 
 const backgroundFooter = {
