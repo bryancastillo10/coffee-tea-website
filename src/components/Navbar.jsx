@@ -33,13 +33,13 @@ const Navbar = () => {
             className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-secondary md:rounded-full md:z-auto z-50
     top-0 left-0 w-full md:w-auto  md:pl-4 pl-9 md:pr-4  transition-all duration-500 ease-in 
     ${
-      open ? "top-[6rem] opacity-90 z-1000" : "top-[-480px]"
+      open ? "top-[6rem] opacity-95" : "top-[-480px]"
     } md:opacity-90 opacity-100 `}
           >
             {NavTitles.map((menu) => (
               <li
                 key={menu.id}
-                className="md:ml-8 text-xl md:my-0 my-7 text-white hover:text-gray-400 duration-500"
+                className="md:ml-8 text-xl md:my-0 my-7 text-white hover:text-tertiary duration-500"
               >
                 <NavLink to={menu.link} activeClassName="active">
                   {menu.name}
