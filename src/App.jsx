@@ -5,6 +5,9 @@ import "aos/dist/aos.css";
 
 //Components
 import LandingPage from "src/pages/LandingPage.jsx";
+import { Navbar, Footer} from "src/components/";
+
+import AppRoutes from "src/routes/AppRoutes.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -17,7 +20,10 @@ const App = () => {
   });
   return (
     <div>
-      <LandingPage />
+      <Navbar/>
+      <LandingPage/>
+      <AppRoutes/>
+      <Footer/>
     </div>
   );
 };

@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import AppRoutes from "src/routes/AppRoutes.jsx";
 
 import Logo from "src/assets/images/company_logo.png";
 import { FaCoffee } from "react-icons/fa";
@@ -51,7 +50,6 @@ const Navbar = () => {
               Order Now
             </Button>
           </ul>
-          <AppRoutes />
         </div>
       </div>
     </nav>
