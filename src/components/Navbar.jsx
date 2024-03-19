@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import {Link} from "react-router-dom";
 import Logo from "src/assets/images/company_logo.png";

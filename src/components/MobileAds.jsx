@@ -27,21 +27,19 @@ const MobileAds = () => {
                 Android and IOS
               </h1>
               {/* Logo Content */}
-              <div className="flex flex-wrap justify-center sm:justify-start items-center">
-                <a href="#">
+              <div className="flex flex-wrap justify-center sm:justify-start items-center">         
                   <img
                     src={AppleStore}
                     alt="Apple IOS logo"
                     className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
                   />
-                </a>
-                <a href="#">
+            
                   <img
                     src={GooglePlay}
                     alt="Google Play Store logo"
                     className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
                   />
-                </a>
+             
               </div>
             </div>
             <div></div>
