@@ -28,7 +28,7 @@ const Footer = () => {
               Espresso & Tea Co.
             </a>
             <p className="pt-4">
-              Crafted Coffee, Cozy Vibes, Unforgettable Moments, Your Perfect
+              Roasted Coffee and Tea, Cozy Vibes, Unforgettable Moments, Your Perfect
               Espresso Escapade
             </p>
             <a
@@ -82,14 +82,13 @@ const Footer = () => {
                 Store Location:
               </h1>
               <p>
-                {" "}
-                G/F Eastwood City Walk 2, 2nd St., Bagumbayan, Quezon City,
+                G/F Eastwood City Walk 2, 2<span className="text-xs align-super">nd</span> St., Bagumbayan, Quezon City,
                 1110, Metro Manila, Philippines
               </p>
               <p>+639 12345678</p>
               {/* Social Media Links */}
               <div className="space-x-3 mt-6">
-                <a href="#">
+                <a href="_blank">
                   <FaFacebook className="text-3xl inline-block hover:scale-105 duration-200" />
                 </a>
                 <a href="#">

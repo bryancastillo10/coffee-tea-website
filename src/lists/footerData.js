@@ -1,37 +1,37 @@
 export const FootList = [
   {
     title: "Home",
-    link: "/#",
+    link: "/",
   },
   {
     title: "About",
-    link: "/#",
+    link: "/about",
   },
   {
     title: "Contact",
-    link: "/#",
+    link: "/contact",
   },
   {
-    title: "Blogs",
-    link: "/#",
+    title: "Order Now",
+    link: "/order-page",
   },
 ];
 
 export const FootListTwo = [
   {
-    title: "Success Stories",
-    link: "/#",
+    title: "Milestones",
+    link: "/about",
   },
   {
-    title: "Guest Feedbacks",
-    link: "/#",
+    title: "Customer Feedbacks",
+    link: "/",
   },
   {
     title: "Delivery Service",
-    link: "/#",
+    link: "/order-page",
   },
   {
     title: "Privacy Policy",
-    link: "/#",
+    link: "/about",
   },
 ];
