@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
-
+import {Link} from "react-router-dom";
 import Logo from "src/assets/images/company_logo.png";
 import { FaCoffee } from "react-icons/fa";
 
@@ -15,7 +14,7 @@ const Navbar = () => {
     <nav className="sticky shadow-md w-full top-0 left-0 z-50">
       {/* Left Side of Navbar */}
       <div className="md:flex items-center justify-between bg-secondary py-4 md:px-10 px-7">
-        <div className="font-bold text-2xl cursor-pointer flex items-center font-cursiveTwo text-white">
+        <div className="font-bold text-2xl flex items-center font-cursiveTwo text-white">
           <img src={Logo} alt="Company Logo" className="w-14 mr-1 pt-2" />
           Espresso&TeaCo.
         </div>
@@ -40,15 +39,15 @@ const Navbar = () => {
                 key={menu.id}
                 className="md:ml-8 text-xl md:my-0 my-7 text-white hover:text-tertiary duration-500"
               >
-                <NavLink to={menu.link} activeClassName="active">
+                <Link to={menu.link}>
                   {menu.name}
-                </NavLink>
+                </Link>
               </li>
             ))}
-            <Button>
+            <Link to='/order-page'><Button>
               <FaCoffee className="text-xl cursor-pointer" />
               Order Now
-            </Button>
+            </Button></Link>
           </ul>
         </div>
       </div>

@@ -2,12 +2,12 @@ import { useEffect } from "react";
 //Package
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Routes, Route } from "react-router-dom";
 
 //Components
-import LandingPage from "src/pages/LandingPage.jsx";
+import {LandingPage, About, Contact, OrderPage} from "src/pages";
 import { Navbar, Footer} from "src/components/";
 
-import AppRoutes from "src/routes/AppRoutes.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -19,12 +19,16 @@ const App = () => {
     });
   });
   return (
-    <div>
+    <>
       <Navbar/>
-      <LandingPage/>
-      <AppRoutes/>
+        <Routes>
+          <Route path="/" element={<LandingPage/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/order-page" element={<OrderPage/>}/>
+        </Routes>
       <Footer/>
-    </div>
+    </>
   );
 };
 

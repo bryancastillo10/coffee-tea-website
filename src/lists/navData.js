@@ -11,8 +11,8 @@ const NavTitles = [
   },
   {
     id: 3,
-    name: "Contacts",
-    link: "/contacts",
+    name: "Contact",
+    link: "/contact",
   },
 ];
 

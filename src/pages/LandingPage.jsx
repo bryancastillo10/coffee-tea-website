@@ -3,7 +3,7 @@ import { Hero, Drinks, Banner, Ratings } from "src/pages/landing-page";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div id="home">
       <Hero />
       <Drinks />
       <Banner />
