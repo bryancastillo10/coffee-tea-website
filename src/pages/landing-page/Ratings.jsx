@@ -2,7 +2,7 @@
 import React from "react";
 import Slider from "react-slick";
 
-import { RatingList, RateSetting } from "../../lists/RatingList.js";
+import { RatingList, SliderSetting } from "src/lists/RatingList.js";
 
 const Ratings = () => {
   return (
@@ -16,7 +16,7 @@ const Ratings = () => {
         </div>
         {/* Commentary section */}
         <div data-aos="zoom-in" className="mt-0">
-          <Slider {...RateSetting}>
+          <Slider {...SliderSetting}>
             {RatingList.map((rating, index) => {
               return (
                 <div key={rating.id} className="my-4">

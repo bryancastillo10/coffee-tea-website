@@ -49,7 +49,7 @@ export const RatingList = [
   },
 ];
 
-export const RateSetting = {
+export const SliderSetting = {
   dots: true,
   arrows: false,
   infinite: true,
