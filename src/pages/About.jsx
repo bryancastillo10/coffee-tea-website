@@ -4,7 +4,7 @@ const About = () => {
   return (
 <section>
   <ShopInfo/>
-  <Milestone/>
+  <Milestone iconColor="bg-orange-300"/>
   <MobileAds/>
   <Awards/>
 </section>
