@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {Link} from "react-router-dom";
 import Logo from "src/assets/images/company_logo.png";
 import { FaCoffee } from "react-icons/fa";
-
+import { GiHamburgerMenu } from "react-icons/gi";
 import NavTitles from "src/lists/navData.js";
 import Button from "src/components/Button.jsx";
 
@@ -22,7 +22,7 @@ const Navbar = () => {
           onClick={() => setOpen(!open)}
           className="text-3xl text-white absolute right-8 top-6 cursor-pointer md:hidden"
         >
-          <ion-icon name={open ? "close" : "menu-outline"}></ion-icon>
+          <ion-icon name={open ? "close" :"menu-outline"}></ion-icon>
         </div>
         {/* Right Side of Navbar */}
         <div className="flex justify-between items-center gap-">

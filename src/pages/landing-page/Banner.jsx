@@ -27,7 +27,7 @@ const Banner = () => {
         <div className="container min-h-[550px] flex justify-center items-center py-12 sm:py-0">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {/* Image Section */}
-            <div data-aos="zoom-in" className="sm: flex items-center">
+            <div className="sm: flex items-center">
               <img
                 src={TeaTop}
                 alt=""
@@ -37,13 +37,13 @@ const Banner = () => {
             {/* Text Content Section */}
             <div className="flex flex-col justify-center gap-6 sm:pt-0">
               <h1
-                data-aos="fade-up"
+                
                 className="text-3xl sm:text-4xl font-bold font-cursive"
               >
                 Premium Delights
               </h1>
               <p
-                data-aos="fade-up"
+
                 className="text-md text-center text-gray-700 tracking-wide leading-5"
               >
                 Espresso&Tea Co. invites you to savor the perfect harmony of
@@ -52,22 +52,17 @@ const Banner = () => {
               </p>
               <div className="flex md:grid grid-cols-2 gap-2">
                 <div className="space-y-5">
-                  <div data-aos="fade-up" className="flex items-center gap-3">
+                  <div className="flex items-center gap-3">
                     <ImLeaf className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-green-100" />
                     <span>Refreshing Aroma!</span>
                   </div>
                   <div
-                    data-aos="fade-up"
-                    data-aos-delay="300"
                     className="flex items-center gap-3"
                   >
                     <FaMugHot className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100" />
                     <span>Blazing Brews</span>
                   </div>
                   <div
-                    data-aos="fade-up"
-                    data-aos-delay="500"
-                    data-aos-offset="0"
                     className="flex items-center gap-3"
                   >
                     <MdSevereCold className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-blue-100" />
@@ -75,7 +70,6 @@ const Banner = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="slide-left"
                   className="border-l-4 border-primary/50 pl-6 space-y-2"
                 >
                   <h1 className="text-2xl font-semibold font-cursive">

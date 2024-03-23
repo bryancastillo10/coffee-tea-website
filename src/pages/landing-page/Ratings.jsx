@@ -9,13 +9,13 @@ const Ratings = () => {
     <div className="py-3">
       <div className="container">
         {/* Header section */}
-        <div data-aos="fade-up" className="text-center mb-3">
+        <div className="text-center mb-3">
           <h1 className="text-4xl font-bold font-cursive text-gray-800">
             Customer Feedbacks
           </h1>
         </div>
         {/* Commentary section */}
-        <div data-aos="zoom-in" className="mt-0">
+        <div className="mt-0">
           <Slider {...SliderSetting}>
             {RatingList.map((rating, index) => {
               return (

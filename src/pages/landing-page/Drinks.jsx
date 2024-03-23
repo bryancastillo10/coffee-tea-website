@@ -9,7 +9,7 @@ const Drinks = () => {
     <div className="py-10 bg-primary/40">
       <div className="container">
         {/* Header title */}
-        <div data-aos="fade-up" className="text-center mb-20">
+        <div className="text-center mb-20">
           <h1 className="text-4xl font-bold font-cursiveTwo text-gray-700">
             Coffee and Tea Bestsellers
           </h1>
@@ -20,8 +20,6 @@ const Drinks = () => {
             {DrinkList.map((drink, index) => {
               return (
                 <div
-                  data-aos="fade-up"
-                  data-aos-delay={drink.aosDelay}
                   key={index}
                   className="rounded-2xl bg-white hover:bg-primary hover:text-white shadow-xl duration-200 max-w-[300px] group relative"
                 >
