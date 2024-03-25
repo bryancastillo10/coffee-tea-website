@@ -6,6 +6,6 @@ const Milestone = () => {
       <p>Add some context</p>
   </section>
   )
-}
+};
 
 export default Milestone

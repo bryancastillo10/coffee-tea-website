@@ -6,7 +6,7 @@ const milestoneElements = [
       title: "Espresso&Tea Co. Opening",
       theme:"Craftmanship Origins",
       date:  "July 2013",
-      icon: <GiCoffeeBeans/>,
+      // icon: "<GiCoffeeBeans/>",
       description: "Espresso&Tea Co. opens its doors for the first time, introducing a variety of coffee and tea blends to the community."
     },
     {
@@ -14,7 +14,7 @@ const milestoneElements = [
       title: "Expansion to Second Location",
       date: "September 2015",
       theme:"Branching Out",
-      direction:<GiTeapotLeaves/>,
+      // direction:"<GiTeapotLeaves/>",
       description: "Due to popular demand, Espresso&Tea Co. expands by opening a second location in the city of Manila."
     },
     {
@@ -22,7 +22,7 @@ const milestoneElements = [
       title: "Exclusive Dragon Tea Edition",
       date: "February 2017",
       theme:"Premium Delights",
-      direction:<GiCoffeeBeans/>,
+      // direction:"<GiCoffeeBeans/>",
       description: "In celebration of Chinese New Year, Espresso&Tea Co. introduces an authentic tea crafted for every tea lover's taste."
     },
     {
@@ -30,7 +30,7 @@ const milestoneElements = [
       title: "Taster's Choice Award",
       date: "June 2018",
       theme:"Integrity and Quality Service",
-      direction:<GiTeapotLeaves/>,
+      // direction:"<GiTeapotLeaves/>",
       description: "Espresso&Tea Co. proudly receives the prestigious Taster's Choice Award, recognizing our commitment to excellence in coffee and tea craftsmanship."
     },
     {
@@ -38,7 +38,7 @@ const milestoneElements = [
       title: "Online Delivery Store",
       date: "April 2020",
       theme:"Adaptability",
-      direction:<GiCoffeeBeans/>,
+      // direction:"<GiCoffeeBeans/>",
       description: "Due to the COVID-19 pandemic, our store swiftly adapts to the changing business landscape by launching the online delivery system reaching out our patrons. "
     },
     {
@@ -46,7 +46,7 @@ const milestoneElements = [
       title: "Community Outreach Program",
       date: "April 2021",
       theme:"Socially Driven",
-      direction:<GiTeapotLeaves/>,
+      // direction:"<GiTeapotLeaves/>",
       description: "Deepening our role in the society, Espresso&Tea Co. hel helps foster positive change through our community program. Committed to being a socially responsible business that contributes to the well-being and development of our community."
     },
     {
@@ -54,7 +54,7 @@ const milestoneElements = [
       title: "Tenth Anniversary Celebration",
       date: "July 2023",
       theme:"A Decade of Unique Flavors",
-      direction:<GiCoffeeBeans/>,
+      // direction:"<GiCoffeeBeans/>",
       description: "Espresso&Tea Co. celebrates its 10 th anniversary with special events, promotions, and the introduction of new menu items."
     }
   ];
